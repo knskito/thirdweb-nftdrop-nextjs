@@ -1,4 +1,4 @@
-/Users/Kensuke/.rbenv/versions/2.3.0-dev/bin/ruby -r ./siteconf20171115-13846-1n1u7vz.rb extconf.rb
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/bin/ruby -r ./siteconf20171115-45219-1o8jscg.rb extconf.rb
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi... no
 checking for shlwapi.h... no
@@ -1083,4 +1083,4 @@ VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
 2 warnings generated.
 linking shared-object ffi_c.bundle
 ld: warning: could not create compact unwind for _ffi_call_unix64: does not use RBP or RSP based frame
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20171115-13846-9xf3qd
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20171115-45219-1gv4u3z
