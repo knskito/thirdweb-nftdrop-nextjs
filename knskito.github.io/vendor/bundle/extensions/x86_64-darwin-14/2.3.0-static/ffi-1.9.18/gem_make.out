@@ -1,0 +1,1086 @@
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/bin/ruby -r ./siteconf20171115-13846-1n1u7vz.rb extconf.rb
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi... no
+checking for shlwapi.h... no
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... no
+creating extconf.h
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+Configuring libffi
+clang: error: unsupported option '-print-multi-os-directory'
+clang: error: no input files
+cd "/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi-x86_64-darwin14" && /Applications/Xcode.app/Contents/Developer/usr/bin/make
+/Applications/Xcode.app/Contents/Developer/usr/bin/make "AR_FLAGS=" "CC_FOR_BUILD=" "CFLAGS=-Wall -fexceptions" "CXXFLAGS=" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=" "LIBCFLAGS=" "LIBCFLAGS_FOR_TARGET=" "MAKE=/Applications/Xcode.app/Contents/Developer/usr/bin/make" "MAKEINFO=/bin/sh /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/missing --run makeinfo " "PICFLAG=" "PICFLAG_FOR_TARGET=" "RUNTESTFLAGS=" "SHELL=/bin/sh" "exec_prefix=/usr/local" "infodir=/usr/local/share/info" "libdir=/usr/local/lib" "mandir=/usr/local/share/man" "prefix=/usr/local" "AR=ar" "AS=as" "CC=clang" "CXX=c++" "LD=ld" "NM=/usr/bin/nm -B" "RANLIB=ranlib" "DESTDIR=" all-recursive
+Making all in include
+make[3]: Nothing to be done for `all'.
+Making all in testsuite
+make[3]: Nothing to be done for `all'.
+Making all in man
+make[3]: Nothing to be done for `all'.
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/debug.lo /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/debug.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/debug.c  -fno-common -DPIC -o src/.libs/debug.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/prep_cif.lo /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/prep_cif.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/prep_cif.c  -fno-common -DPIC -o src/.libs/prep_cif.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/types.lo /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/types.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/types.c  -fno-common -DPIC -o src/.libs/types.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/raw_api.lo /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/raw_api.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/raw_api.c  -fno-common -DPIC -o src/.libs/raw_api.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/java_raw_api.lo /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/java_raw_api.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/java_raw_api.c  -fno-common -DPIC -o src/.libs/java_raw_api.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/closures.lo /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/closures.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/closures.c  -fno-common -DPIC -o src/.libs/closures.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/x86/ffi.lo /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/x86/ffi.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/x86/ffi.c  -fno-common -DPIC -o src/x86/.libs/ffi.o
+/bin/sh ./libtool   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -c -o src/x86/darwin.lo /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/x86/darwin.S
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src -c /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/x86/darwin.S  -fno-common -DPIC -o src/x86/.libs/darwin.o
+/bin/sh ./libtool --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/x86/ffi64.lo /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/x86/ffi64.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/x86/ffi64.c  -fno-common -DPIC -o src/x86/.libs/ffi64.o
+/bin/sh ./libtool   --mode=compile clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -c -o src/x86/darwin64.lo /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/x86/darwin64.S
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src -I. -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src -c /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/src/x86/darwin64.S  -fno-common -DPIC -o src/x86/.libs/darwin64.o
+/bin/sh ./libtool --tag=CC   --mode=link clang -g  -Wall -fexceptions -version-info `grep -v '^#' /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/libtool-version`    -o libffi.la -rpath /usr/local/lib src/debug.lo src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo      src/x86/ffi.lo src/x86/darwin.lo src/x86/ffi64.lo src/x86/darwin64.lo                      
+libtool: link: clang -dynamiclib -Wl,-undefined -Wl,dynamic_lookup -o .libs/libffi.5.dylib  src/.libs/debug.o src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi.o src/x86/.libs/darwin.o src/x86/.libs/ffi64.o src/x86/.libs/darwin64.o      -install_name  /usr/local/lib/libffi.5.dylib -compatibility_version 6 -current_version 6.10 -Wl,-single_module
+ld: warning: could not create compact unwind for _ffi_call_unix64: does not use RBP or RSP based frame
+libtool: link: (cd ".libs" && rm -f "libffi.dylib" && ln -s "libffi.5.dylib" "libffi.dylib")
+libtool: link: ( cd ".libs" && rm -f "libffi.la" && ln -s "../libffi.la" "libffi.la" )
+/bin/sh ./libtool --tag=CC   --mode=link clang -g  -Wall -fexceptions   -o libffi_convenience.la  src/debug.lo src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo      src/x86/ffi.lo src/x86/darwin.lo src/x86/ffi64.lo src/x86/darwin64.lo                      
+libtool: link: ar cru .libs/libffi_convenience.a src/.libs/debug.o src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi.o src/x86/.libs/darwin.o src/x86/.libs/ffi64.o src/x86/.libs/darwin64.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: .libs/libffi_convenience.a(ffi.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: .libs/libffi_convenience.a(darwin.o) has no symbols
+libtool: link: ranlib .libs/libffi_convenience.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: .libs/libffi_convenience.a(ffi.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: .libs/libffi_convenience.a(darwin.o) has no symbols
+libtool: link: ( cd ".libs" && rm -f "libffi_convenience.la" && ln -s "../libffi_convenience.la" "libffi_convenience.la" )
+compiling Thread.c
+compiling Buffer.c
+Buffer.c:69:49: warning: incompatible pointer types passing 'void (Buffer *)' (aka 'void (struct Buffer *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, Buffer, NULL, buffer_release, buffer);
+                                                ^~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+Buffer.c:183:49: warning: incompatible pointer types passing 'void (Buffer *)' (aka 'void (struct Buffer *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(BufferClass, Buffer, buffer_mark, -1, result);
+                                                ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Buffer.c:183:62: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    obj = Data_Make_Struct(BufferClass, Buffer, buffer_mark, -1, result);
+                                                             ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+3 warnings generated.
+compiling DynamicLibrary.c
+DynamicLibrary.c:88:51: warning: incompatible pointer types passing 'void (Library *)' (aka 'void (struct Library *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    return Data_Make_Struct(klass, Library, NULL, library_free, library);
+                                                  ^~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+DynamicLibrary.c:206:62: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    VALUE obj = Data_Make_Struct(klass, LibrarySymbol, NULL, -1, sym);
+                                                             ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+DynamicLibrary.c:232:62: warning: incompatible pointer types passing 'void (LibrarySymbol *)' (aka 'void (struct LibrarySymbol_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(SymbolClass, LibrarySymbol, symbol_mark, -1, sym);
+                                                             ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+DynamicLibrary.c:232:75: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    VALUE obj = Data_Make_Struct(SymbolClass, LibrarySymbol, symbol_mark, -1, sym);
+                                                                          ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+4 warnings generated.
+compiling Variadic.c
+Variadic.c:83:58: warning: incompatible pointer types passing 'void (VariadicInvoker *)' (aka 'void (struct VariadicInvoker_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, VariadicInvoker, variadic_mark, -1, invoker);
+                                                         ^~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Variadic.c:83:73: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    VALUE obj = Data_Make_Struct(klass, VariadicInvoker, variadic_mark, -1, invoker);
+                                                                        ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+compiling ffi.c
+compiling Pointer.c
+Pointer.c:62:63: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    obj = Data_Make_Struct(rbffi_PointerClass, Pointer, NULL, -1, p);
+                                                              ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+Pointer.c:78:44: warning: incompatible pointer types passing 'void (Pointer *)' (aka 'void (struct Pointer *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, Pointer, ptr_mark, ptr_release, p);
+                                           ^~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Pointer.c:78:54: warning: incompatible pointer types passing 'void (Pointer *)' (aka 'void (struct Pointer *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, Pointer, ptr_mark, ptr_release, p);
+                                                     ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+Pointer.c:206:60: warning: incompatible pointer types passing 'void (Pointer *)' (aka 'void (struct Pointer *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    retval = Data_Make_Struct(rbffi_PointerClass, Pointer, ptr_mark, -1, p);
+                                                           ^~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Pointer.c:206:70: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    retval = Data_Make_Struct(rbffi_PointerClass, Pointer, ptr_mark, -1, p);
+                                                                     ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+5 warnings generated.
+compiling MemoryPointer.c
+MemoryPointer.c:65:56: warning: incompatible pointer types passing 'void (Pointer *)' (aka 'void (struct Pointer *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, Pointer, NULL, memptr_release, p);
+                                                       ^~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+1 warning generated.
+compiling Platform.c
+compiling LongDouble.c
+compiling Function.c
+Function.c:155:45: warning: incompatible pointer types passing 'void (Function *)' (aka 'void (struct Function_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, Function, function_mark, function_free, fn);
+                                            ^~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Function.c:155:60: warning: incompatible pointer types passing 'void (Function *)' (aka 'void (struct Function_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, Function, function_mark, function_free, fn);
+                                                           ^~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+Function.c:563:9: warning: implicit declaration of function 'rb_thread_call_without_gvl' is invalid in C99 [-Wimplicit-function-declaration]
+        rb_thread_call_without_gvl(async_cb_wait, &w, async_cb_stop, &w);
+        ^
+3 warnings generated.
+compiling MappedType.c
+MappedType.c:51:53: warning: incompatible pointer types passing 'void (MappedType *)' (aka 'void (struct MappedType_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, MappedType, mapped_mark, -1, m);
+                                                    ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+MappedType.c:51:66: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    VALUE obj = Data_Make_Struct(klass, MappedType, mapped_mark, -1, m);
+                                                                 ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+compiling Type.c
+Type.c:61:53: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    VALUE obj = Data_Make_Struct(klass, Type, NULL, -1, type);
+                                                    ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+Type.c:151:54: warning: incompatible pointer types passing 'void (BuiltinType *)' (aka 'void (struct BuiltinType_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, BuiltinType, NULL, builtin_type_free, type);
+                                                     ^~~~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+compiling Types.c
+compiling StructLayout.c
+StructLayout.c:75:48: warning: incompatible pointer types passing 'void (StructField *)' (aka 'void (struct StructField_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, StructField, struct_field_mark, -1, field);
+                                               ^~~~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+StructLayout.c:75:67: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    obj = Data_Make_Struct(klass, StructField, struct_field_mark, -1, field);
+                                                                  ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+StructLayout.c:418:49: warning: incompatible pointer types passing 'void (StructLayout *)' (aka 'void (struct StructLayout_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, StructLayout, struct_layout_mark, struct_layout_free, layout);
+                                                ^~~~~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+StructLayout.c:418:69: warning: incompatible pointer types passing 'void (StructLayout *)' (aka 'void (struct StructLayout_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, StructLayout, struct_layout_mark, struct_layout_free, layout);
+                                                                    ^~~~~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+4 warnings generated.
+compiling DataConverter.c
+compiling ArrayType.c
+ArrayType.c:47:46: warning: incompatible pointer types passing 'void (ArrayType *)' (aka 'void (struct ArrayType_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, ArrayType, array_type_mark, array_type_free, array);
+                                             ^~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+ArrayType.c:47:63: warning: incompatible pointer types passing 'void (ArrayType *)' (aka 'void (struct ArrayType_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, ArrayType, array_type_mark, array_type_free, array);
+                                                              ^~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+compiling StructByReference.c
+StructByReference.c:65:60: warning: incompatible pointer types passing 'void (StructByReference *)' (aka 'void (struct StructByReference_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, StructByReference, sbr_mark, -1, sbr);
+                                                           ^~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+StructByReference.c:65:70: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    VALUE obj = Data_Make_Struct(klass, StructByReference, sbr_mark, -1, sbr);
+                                                                     ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+compiling LastError.c
+compiling Struct.c
+Struct.c:92:49: warning: incompatible pointer types passing 'void (Struct *)' (aka 'void (struct Struct_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, Struct, struct_mark, struct_free, s);
+                                                ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Struct.c:92:62: warning: incompatible pointer types passing 'void (Struct *)' (aka 'void (struct Struct_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, Struct, struct_mark, struct_free, s);
+                                                             ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+Struct.c:505:48: warning: incompatible pointer types passing 'void (InlineArray *)' (aka 'void (struct InlineArray_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, InlineArray, inline_array_mark, -1, array);
+                                               ^~~~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Struct.c:505:67: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    obj = Data_Make_Struct(klass, InlineArray, inline_array_mark, -1, array);
+                                                                  ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+4 warnings generated.
+compiling Call.c
+Call.c:355:5: warning: implicit declaration of function 'rb_thread_call_without_gvl' is invalid in C99 [-Wimplicit-function-declaration]
+    rbffi_thread_blocking_region(call_blocking_function, data, (void *) -1, NULL);
+    ^
+./Thread.h:78:39: note: expanded from macro 'rbffi_thread_blocking_region'
+# define rbffi_thread_blocking_region rb_thread_call_without_gvl
+                                      ^
+1 warning generated.
+compiling MethodHandle.c
+compiling AbstractMemory.c
+AbstractMemory.c:66:57: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    obj = Data_Make_Struct(klass, AbstractMemory, NULL, -1, memory);
+                                                        ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+1 warning generated.
+compiling FunctionInfo.c
+FunctionInfo.c:67:55: warning: incompatible pointer types passing 'void (FunctionType *)' (aka 'void (struct FunctionType_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, FunctionType, fntype_mark, fntype_free, fnInfo);
+                                                      ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+FunctionInfo.c:67:68: warning: incompatible pointer types passing 'void (FunctionType *)' (aka 'void (struct FunctionType_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, FunctionType, fntype_mark, fntype_free, fnInfo);
+                                                                   ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+compiling ClosurePool.c
+compiling StructByValue.c
+StructByValue.c:67:56: warning: incompatible pointer types passing 'void (StructByValue *)' (aka 'void (struct StructByValue_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, StructByValue, sbv_mark, sbv_free, sbv);
+                                                       ^~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+StructByValue.c:67:66: warning: incompatible pointer types passing 'void (StructByValue *)' (aka 'void (struct StructByValue_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, StructByValue, sbv_mark, sbv_free, sbv);
+                                                                 ^~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+linking shared-object ffi_c.bundle
+ld: warning: could not create compact unwind for _ffi_call_unix64: does not use RBP or RSP based frame
+
+make "DESTDIR=" install
+cd "/Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi-x86_64-darwin14" && /Applications/Xcode.app/Contents/Developer/usr/bin/make
+/Applications/Xcode.app/Contents/Developer/usr/bin/make "AR_FLAGS=" "CC_FOR_BUILD=" "CFLAGS=-Wall -fexceptions" "CXXFLAGS=" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=" "LIBCFLAGS=" "LIBCFLAGS_FOR_TARGET=" "MAKE=/Applications/Xcode.app/Contents/Developer/usr/bin/make" "MAKEINFO=/bin/sh /Users/Kensuke/knskito.github.io/vendor/bundle/gems/ffi-1.9.18/ext/ffi_c/libffi/missing --run makeinfo " "PICFLAG=" "PICFLAG_FOR_TARGET=" "RUNTESTFLAGS=" "SHELL=/bin/sh" "exec_prefix=/usr/local" "infodir=/usr/local/share/info" "libdir=/usr/local/lib" "mandir=/usr/local/share/man" "prefix=/usr/local" "AR=ar" "AS=as" "CC=clang" "CXX=c++" "LD=ld" "NM=/usr/bin/nm -B" "RANLIB=ranlib" "DESTDIR=" all-recursive
+Making all in include
+make[3]: Nothing to be done for `all'.
+Making all in testsuite
+make[3]: Nothing to be done for `all'.
+Making all in man
+make[3]: Nothing to be done for `all'.
+make[3]: Nothing to be done for `all-am'.
+compiling Thread.c
+compiling Buffer.c
+Buffer.c:69:49: warning: incompatible pointer types passing 'void (Buffer *)' (aka 'void (struct Buffer *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, Buffer, NULL, buffer_release, buffer);
+                                                ^~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+Buffer.c:183:49: warning: incompatible pointer types passing 'void (Buffer *)' (aka 'void (struct Buffer *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(BufferClass, Buffer, buffer_mark, -1, result);
+                                                ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Buffer.c:183:62: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    obj = Data_Make_Struct(BufferClass, Buffer, buffer_mark, -1, result);
+                                                             ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+3 warnings generated.
+compiling DynamicLibrary.c
+DynamicLibrary.c:88:51: warning: incompatible pointer types passing 'void (Library *)' (aka 'void (struct Library *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    return Data_Make_Struct(klass, Library, NULL, library_free, library);
+                                                  ^~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+DynamicLibrary.c:206:62: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    VALUE obj = Data_Make_Struct(klass, LibrarySymbol, NULL, -1, sym);
+                                                             ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+DynamicLibrary.c:232:62: warning: incompatible pointer types passing 'void (LibrarySymbol *)' (aka 'void (struct LibrarySymbol_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(SymbolClass, LibrarySymbol, symbol_mark, -1, sym);
+                                                             ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+DynamicLibrary.c:232:75: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    VALUE obj = Data_Make_Struct(SymbolClass, LibrarySymbol, symbol_mark, -1, sym);
+                                                                          ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+4 warnings generated.
+compiling Variadic.c
+Variadic.c:83:58: warning: incompatible pointer types passing 'void (VariadicInvoker *)' (aka 'void (struct VariadicInvoker_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, VariadicInvoker, variadic_mark, -1, invoker);
+                                                         ^~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Variadic.c:83:73: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    VALUE obj = Data_Make_Struct(klass, VariadicInvoker, variadic_mark, -1, invoker);
+                                                                        ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+compiling ffi.c
+compiling Pointer.c
+Pointer.c:62:63: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    obj = Data_Make_Struct(rbffi_PointerClass, Pointer, NULL, -1, p);
+                                                              ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+Pointer.c:78:44: warning: incompatible pointer types passing 'void (Pointer *)' (aka 'void (struct Pointer *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, Pointer, ptr_mark, ptr_release, p);
+                                           ^~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Pointer.c:78:54: warning: incompatible pointer types passing 'void (Pointer *)' (aka 'void (struct Pointer *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, Pointer, ptr_mark, ptr_release, p);
+                                                     ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+Pointer.c:206:60: warning: incompatible pointer types passing 'void (Pointer *)' (aka 'void (struct Pointer *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    retval = Data_Make_Struct(rbffi_PointerClass, Pointer, ptr_mark, -1, p);
+                                                           ^~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Pointer.c:206:70: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    retval = Data_Make_Struct(rbffi_PointerClass, Pointer, ptr_mark, -1, p);
+                                                                     ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+5 warnings generated.
+compiling MemoryPointer.c
+MemoryPointer.c:65:56: warning: incompatible pointer types passing 'void (Pointer *)' (aka 'void (struct Pointer *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, Pointer, NULL, memptr_release, p);
+                                                       ^~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+1 warning generated.
+compiling Platform.c
+compiling LongDouble.c
+compiling Function.c
+Function.c:155:45: warning: incompatible pointer types passing 'void (Function *)' (aka 'void (struct Function_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, Function, function_mark, function_free, fn);
+                                            ^~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Function.c:155:60: warning: incompatible pointer types passing 'void (Function *)' (aka 'void (struct Function_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, Function, function_mark, function_free, fn);
+                                                           ^~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+Function.c:563:9: warning: implicit declaration of function 'rb_thread_call_without_gvl' is invalid in C99 [-Wimplicit-function-declaration]
+        rb_thread_call_without_gvl(async_cb_wait, &w, async_cb_stop, &w);
+        ^
+3 warnings generated.
+compiling MappedType.c
+MappedType.c:51:53: warning: incompatible pointer types passing 'void (MappedType *)' (aka 'void (struct MappedType_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, MappedType, mapped_mark, -1, m);
+                                                    ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+MappedType.c:51:66: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    VALUE obj = Data_Make_Struct(klass, MappedType, mapped_mark, -1, m);
+                                                                 ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+compiling Type.c
+Type.c:61:53: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    VALUE obj = Data_Make_Struct(klass, Type, NULL, -1, type);
+                                                    ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+Type.c:151:54: warning: incompatible pointer types passing 'void (BuiltinType *)' (aka 'void (struct BuiltinType_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, BuiltinType, NULL, builtin_type_free, type);
+                                                     ^~~~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+compiling Types.c
+compiling StructLayout.c
+StructLayout.c:75:48: warning: incompatible pointer types passing 'void (StructField *)' (aka 'void (struct StructField_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, StructField, struct_field_mark, -1, field);
+                                               ^~~~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+StructLayout.c:75:67: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    obj = Data_Make_Struct(klass, StructField, struct_field_mark, -1, field);
+                                                                  ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+StructLayout.c:418:49: warning: incompatible pointer types passing 'void (StructLayout *)' (aka 'void (struct StructLayout_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, StructLayout, struct_layout_mark, struct_layout_free, layout);
+                                                ^~~~~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+StructLayout.c:418:69: warning: incompatible pointer types passing 'void (StructLayout *)' (aka 'void (struct StructLayout_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, StructLayout, struct_layout_mark, struct_layout_free, layout);
+                                                                    ^~~~~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+4 warnings generated.
+compiling DataConverter.c
+compiling ArrayType.c
+ArrayType.c:47:46: warning: incompatible pointer types passing 'void (ArrayType *)' (aka 'void (struct ArrayType_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, ArrayType, array_type_mark, array_type_free, array);
+                                             ^~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+ArrayType.c:47:63: warning: incompatible pointer types passing 'void (ArrayType *)' (aka 'void (struct ArrayType_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, ArrayType, array_type_mark, array_type_free, array);
+                                                              ^~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+compiling StructByReference.c
+StructByReference.c:65:60: warning: incompatible pointer types passing 'void (StructByReference *)' (aka 'void (struct StructByReference_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, StructByReference, sbr_mark, -1, sbr);
+                                                           ^~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+StructByReference.c:65:70: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    VALUE obj = Data_Make_Struct(klass, StructByReference, sbr_mark, -1, sbr);
+                                                                     ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+compiling LastError.c
+compiling Struct.c
+Struct.c:92:49: warning: incompatible pointer types passing 'void (Struct *)' (aka 'void (struct Struct_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, Struct, struct_mark, struct_free, s);
+                                                ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Struct.c:92:62: warning: incompatible pointer types passing 'void (Struct *)' (aka 'void (struct Struct_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, Struct, struct_mark, struct_free, s);
+                                                             ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+Struct.c:505:48: warning: incompatible pointer types passing 'void (InlineArray *)' (aka 'void (struct InlineArray_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    obj = Data_Make_Struct(klass, InlineArray, inline_array_mark, -1, array);
+                                               ^~~~~~~~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+Struct.c:505:67: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    obj = Data_Make_Struct(klass, InlineArray, inline_array_mark, -1, array);
+                                                                  ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+4 warnings generated.
+compiling Call.c
+Call.c:355:5: warning: implicit declaration of function 'rb_thread_call_without_gvl' is invalid in C99 [-Wimplicit-function-declaration]
+    rbffi_thread_blocking_region(call_blocking_function, data, (void *) -1, NULL);
+    ^
+./Thread.h:78:39: note: expanded from macro 'rbffi_thread_blocking_region'
+# define rbffi_thread_blocking_region rb_thread_call_without_gvl
+                                      ^
+1 warning generated.
+compiling MethodHandle.c
+compiling AbstractMemory.c
+AbstractMemory.c:66:57: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wint-conversion]
+    obj = Data_Make_Struct(klass, AbstractMemory, NULL, -1, memory);
+                                                        ^~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+1 warning generated.
+compiling FunctionInfo.c
+FunctionInfo.c:67:55: warning: incompatible pointer types passing 'void (FunctionType *)' (aka 'void (struct FunctionType_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, FunctionType, fntype_mark, fntype_free, fnInfo);
+                                                      ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+FunctionInfo.c:67:68: warning: incompatible pointer types passing 'void (FunctionType *)' (aka 'void (struct FunctionType_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, FunctionType, fntype_mark, fntype_free, fnInfo);
+                                                                   ^~~~~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+compiling ClosurePool.c
+compiling StructByValue.c
+StructByValue.c:67:56: warning: incompatible pointer types passing 'void (StructByValue *)' (aka 'void (struct StructByValue_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, StructByValue, sbv_mark, sbv_free, sbv);
+                                                       ^~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:61: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:55: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                      ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:56: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                       ^
+StructByValue.c:67:66: warning: incompatible pointer types passing 'void (StructByValue *)' (aka 'void (struct StructByValue_ *)') to parameter of type 'RUBY_DATA_FUNC' (aka 'void (*)(void *)') [-Wincompatible-pointer-types]
+    VALUE obj = Data_Make_Struct(klass, StructByValue, sbv_mark, sbv_free, sbv);
+                                                                 ^~~~~~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1040:67: note: expanded from macro 'Data_Make_Struct'
+    Data_Make_Struct0(data_struct_obj, klass, sizeof(type), mark, free, sval); \
+                                                                  ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1035:61: note: expanded from macro 'Data_Make_Struct0'
+    VALUE result = rb_data_object_zalloc(klass, size, mark, free); \
+                                                            ^~~~
+/Users/Kensuke/.rbenv/versions/2.3.0-dev/include/ruby-2.3.0/ruby/ruby.h:1014:71: note: passing argument to parameter here
+VALUE rb_data_object_zalloc(VALUE,size_t,RUBY_DATA_FUNC,RUBY_DATA_FUNC);
+                                                                      ^
+2 warnings generated.
+linking shared-object ffi_c.bundle
+ld: warning: could not create compact unwind for _ffi_call_unix64: does not use RBP or RSP based frame
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20171115-13846-9xf3qd
